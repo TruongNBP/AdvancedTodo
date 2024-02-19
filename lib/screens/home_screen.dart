@@ -75,7 +75,7 @@ class HomeScreen extends StatelessWidget {
                               ),
                               validator: (value) {
                                 if (value!.isEmpty) {
-                                  return 'hey bro dont leave it empty';
+                                  return 'hey bro don\'t leave it empty';
                                 } else {
                                   return null;
                                 }
@@ -93,7 +93,7 @@ class HomeScreen extends StatelessWidget {
                               ),
                               validator: (value) {
                                 if (value!.isEmpty) {
-                                  return 'hey bro';
+                                  return 'hey bro don\'t leave it empty';
                                 } else {
                                   return null;
                                 }
